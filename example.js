@@ -69,10 +69,6 @@ async function example() {
                     .sendKeys('647-270-3663');
 
                   await driver
-                    .findElement(By.id('telephone'))
-                    .sendKeys('647-270-3663');
-
-                  await driver
                     .findElement(By.id('email'))
                     .sendKeys('krissyorel@hotmail.com');
 
